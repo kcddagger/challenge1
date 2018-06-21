@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace challenge1
 {
-    class Program
+    class Challenge_1
     {
         static void Main(string[] args)
         {
@@ -55,13 +55,13 @@ namespace challenge1
             if (c == a)
             {
                 Console.WriteLine();
-                Console.WriteLine(b.ToString());
+                Console.WriteLine(b);
                 Console.ReadLine();
             }
             else if (c == b)
             {
                 Console.WriteLine();
-                Console.WriteLine(a.ToString());
+                Console.WriteLine(a);
                 Console.ReadLine();
             }
         }
